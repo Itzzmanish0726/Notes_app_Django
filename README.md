@@ -8,12 +8,15 @@ Requirements
 Installation Process
 
 1.Cloning a repository
+
 git clone <paste repo link here >
 
 2. Building the app
+ 
 docker build -t notes-app
 
-3. Running the app
+4. Running the app
+
 docker run -d -p 8000:8000 notes-app:latest
 
 
